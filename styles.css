@@ -24,7 +24,7 @@ header{
 header a{
     color: white;
     text-decoration: none;
-    padding: 20px 20px 20px -10px;
+
 }
 
 /* Style Dropdown*/
@@ -101,31 +101,17 @@ article:hover .hover-content {
     width: 25%;
 }
 
-.internal1{
-    display: block;
-    background-color: #D3D3D3;
-}
 
-.internal1 .subImage {
-    display:inline;
-    padding: 30px 15px 20px 30px;
-    margin:auto;
-}
 
-.internal1 article{
-    text-align: left;
-}
-
-.internal1 p{
-    padding: 30px 30px 30px 30px;
-    margin: 20px 30px 20px 30px;
+.internal2 article {
+    display: contents;
 }
 
 .internal2{
-
+    word-wrap: break-word;
     background-color: #D3D3D3;
-    padding: 30px 40px 30px 0px;
-    margin: 20px 17px 20px 30px;
+    padding: 30px;
+    margin: 30px;
 
 }
 
