@@ -1,0 +1,140 @@
+/* Style Background */
+body{
+    background:url('background2.jpeg');
+    font-family: 'Roboto', sans-serif;
+    font-size:14pt;
+
+}
+
+/* Style Header*/
+header{
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #6B8E23;
+    width: 98%;
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20px -10px;
+}
+
+/* Style Dropdown*/
+/* learned how to format dropdown menus from https://www.w3schools.com*/
+.dropdown-content {
+    display:none;
+    color: black;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content ul {
+    color: black;
+}
+
+nav:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Style Sections*/
+section{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section article {
+    position: relative;
+    display: inline;
+    padding: 20px 20px 20px 20px;
+    left: 60px;
+}
+
+/* Style Article Interactive Features*/
+
+.articleImage{
+    border-radius: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    width: 20%;
+}
+
+
+.articleImage:hover{
+    opacity: 0.5;
+}
+
+.hover-content{
+    display:none;
+    z-index: -1;
+    position: fixed;
+
+}
+
+article:hover .hover-content {
+    position: absolute;
+    font-size:18pt;
+    font-weight: bold;
+    bottom: 140px;
+    right: 60px;
+    left: 60px;
+    text-align: center;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:inline;
+    text-shadow: 2px 2px 8px #FFFFFF;
+}
+
+
+/* Style Internal Pages*/
+.internalImage {
+    width: 25%;
+}
+
+.internal1{
+    display: block;
+    background-color: #D3D3D3;
+}
+
+.internal1 .subImage {
+    display:inline;
+    padding: 30px 15px 20px 30px;
+    margin:auto;
+}
+
+.internal1 article{
+    text-align: left;
+}
+
+.internal1 p{
+    padding: 30px 30px 30px 30px;
+    margin: 20px 30px 20px 30px;
+}
+
+.internal2{
+
+    background-color: #D3D3D3;
+    padding: 30px 40px 30px 0px;
+    margin: 20px 17px 20px 30px;
+
+}
+
+/* Style Footer*/
+#up {
+    width:5%;
+    padding-right: 20px;
+    float: right;
+    z-index: 1;
+
+}
+
+
+
