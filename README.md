@@ -7,7 +7,7 @@ The Sloth Horoscopes Website is a project that incorporates zodiac signs and slo
 <!-- It is good practice to add an about or summary -->
 ## About
 
-The Sloth Horoscopes Website is allows you to select your zodiac sign and tell you a horoscope based on what type of sloth you are. It is meant to be a fun, whimiscal interpretation of horoscopes. Sloths are my favorite animal.
+The Sloth Horoscopes Website allows you to select your zodiac sign and tell you a horoscope based on what type of sloth you are. It is meant to be a fun, whimiscal interpretation of horoscopes. Sloths are my favorite animal.
 
 <!-- Any knowledge or tools you will need before hand -->
 ### Prerequisites
